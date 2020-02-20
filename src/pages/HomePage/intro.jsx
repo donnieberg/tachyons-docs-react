@@ -36,7 +36,7 @@ export default class Intro extends Component {
           </p>
           <pre className="pre black-70" style={{ "overflow": "auto" }}>
             <code className="code f6 dib pa2 bg-near-white" style={{ "fontSize": "14px" }}>
-              &lt;{`link rel="stylesheet" href="https://npmcdn.com/tachyons@${this.props.tachyons.version}/css/tachyons.min.css"`}&gt;
+              &lt;{`link rel="stylesheet" href="https://unpkg.com/tachyons@${this.props.tachyons.version}/css/tachyons.min.css"`}&gt;
             </code>
           </pre>
           <p className="mt4">
